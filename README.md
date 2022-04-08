@@ -1,0 +1,1 @@
+LautzOfCode.EnumGenerator
