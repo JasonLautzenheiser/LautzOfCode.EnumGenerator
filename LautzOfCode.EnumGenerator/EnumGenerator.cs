@@ -8,7 +8,7 @@ namespace LautzOfCode.EnumGenerator;
 
 [Generator]
 public class EnumGenerator : IIncrementalGenerator {
-  const string EnumExtensionsAttribute = "NetEscapades.EnumGenerators.EnumExtensionsAttribute";
+  const string EnumExtensionsAttribute = "LautzOfCode.EnumGenerators.EnumExtensionsAttribute";
   const string HasFlagsAttribute = "System.HasFlagsAttribute";
 
   public void Initialize(IncrementalGeneratorInitializationContext context) {

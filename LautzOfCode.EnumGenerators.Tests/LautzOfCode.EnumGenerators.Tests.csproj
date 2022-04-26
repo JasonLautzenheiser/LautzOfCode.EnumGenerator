@@ -6,4 +6,11 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\LautzOfCode.EnumGenerator.Attributes\LautzOfCode.EnumGenerator.Attributes.csproj" 
+                        OutputItemType="Analyzer" ReferenceOutputAssembly="true"  />
+      <ProjectReference Include="..\LautzOfCode.EnumGenerator\LautzOfCode.EnumGenerator.csproj" 
+                        OutputItemType="Analyzer" ReferenceOutputAssembly="false"/>
+    </ItemGroup>
+
 </Project>

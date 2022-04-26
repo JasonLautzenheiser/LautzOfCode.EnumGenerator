@@ -1,6 +1,7 @@
 external
 nuke-global.*
 build.log
+artifacts
 
 # Build Folders (you can keep bin if you'd like, to store dlls and pdbs)
 [Bb]in/

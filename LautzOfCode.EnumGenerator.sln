@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LautzOfCode.EnumGenerators.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LautzOfCode.EnumGenerators.IntegrationTests", "LautzOfCode.EnumGenerators.IntegrationTests\LautzOfCode.EnumGenerators.IntegrationTests.csproj", "{FA3C4480-108D-446C-B3DA-EA96AE1A0283}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6A73EBFB-AA8C-45BF-98B4-044D08348172}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,11 +40,9 @@ Global
 		{E71AA629-1C36-435B-A9BB-FC57F70DC287}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E71AA629-1C36-435B-A9BB-FC57F70DC287}.Release|Any CPU.Build.0 = Release|Any CPU
 		{39932601-1C28-4BB0-A230-606266AA7311}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{39932601-1C28-4BB0-A230-606266AA7311}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39932601-1C28-4BB0-A230-606266AA7311}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39932601-1C28-4BB0-A230-606266AA7311}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FA3C4480-108D-446C-B3DA-EA96AE1A0283}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FA3C4480-108D-446C-B3DA-EA96AE1A0283}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA3C4480-108D-446C-B3DA-EA96AE1A0283}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA3C4480-108D-446C-B3DA-EA96AE1A0283}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
@@ -55,5 +55,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{39932601-1C28-4BB0-A230-606266AA7311} = {5AAC860D-B3E1-47D0-BF30-8D82EAB4E41E}
 		{FA3C4480-108D-446C-B3DA-EA96AE1A0283} = {5AAC860D-B3E1-47D0-BF30-8D82EAB4E41E}
+		{0ECA86A0-4CE0-49F5-BCAC-97FD999E80F0} = {6A73EBFB-AA8C-45BF-98B4-044D08348172}
+		{E71AA629-1C36-435B-A9BB-FC57F70DC287} = {6A73EBFB-AA8C-45BF-98B4-044D08348172}
 	EndGlobalSection
 EndGlobal
